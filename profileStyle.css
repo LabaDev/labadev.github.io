@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(207, 207, 207);
+    color:black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    size: 100%;
+    font-size: 16px;
+    font-weight: 10;
+}
+.container{
+    background-color: aliceblue;
+}
+/*Nav bar section*/
+.nav-pills a {
+    color:black;
+}
+.nav-pills a:hover {
+    color:black;
+}
+.nav-pills li{
+    border-radius: 5px;
+}
+.nav-pills li:hover{
+    background-color: rgb(228, 203, 82);
+    transition: 1s;
+}
+.logo-container{
+    position:absolute;
+    right: 2%;
+    margin-right: 2em;
+}
+.logo{
+    max-width: 12em;
+}
+
+/*Header*/
+header{
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 200;
+}
+img{
+    max-height: 15em;
+    border-radius: 5%;
+}
+header p{
+    font-size: 1.5rem;
+}
+header h2{
+    font-size: 1.5em;
+    transition: 0.6s;
+}
+header h2:hover{
+    font-size: 1.7rem;
+    transition: 1s;
+}
+
+/*Mid Section*/
+
+.col{
+    margin:1rem;
+    background-color:beige;
+    text-align: center;
+    border-radius: 5%;
+    border: rgb(228, 203, 82) 0.2em;
+    border-style: solid;
+    transition:0.6s;
+}
+.col-6{
+    margin:1rem;
+    background-color:beige;
+    border-radius: 5%;
+    transition:0.6s;
+    border: rgb(228, 203, 82) 0.2em;
+    border-style: solid;
+}
+.col:hover{
+    background-color: rgb(228, 203, 82);
+    margin:0.3em;
+    transition: 1s;
+}
+.col-6:hover{
+    background-color: rgb(228, 203, 82);
+    margin:0.3em;
+    transition: 1s;
+}
+.col h4{
+    font-size: 1.2em;
+    transition:0.6s;
+}
+.col:hover h4{
+    font-size: 1.5em;
+    transition:1s;
+}
+.col-6 h4{
+    font-size: 1.2em;
+    transition:0.6s;
+}
+.col-6:hover h4{
+    font-size: 1.5em;
+    transition:1s;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    padding-right: 1.5em;
+    text-align: center;
+    list-style: none;
+}
+.col a{
+    text-decoration: none;
+    color:black;
+}
+
+/*Table*/
+table a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*Footer*/
+footer{
+    margin: 0px;
+}
